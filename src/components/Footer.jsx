@@ -8,8 +8,7 @@ const Footer = () => {
         <>
             <footer className="footer">
                 <div className="footer-wrap">
-                    <p className="footer-txt">Footer</p>
-                    {/* Copyright 2021. juni-official All rights reserved. */}
+                    <p className="footer-txt">Copyright 2021. juni-official All rights reserved.</p>
                 </div>
             </footer>
         </>

@@ -40,7 +40,11 @@ module.exports = {
                     }
                 },
             ],
-        },        
+        },
+        {   //material-ui-icon
+            test: /\.svg$/,
+            use: ['@svgr/webpack'],
+        }      
     ],},
     output : { //출력
         path: path.join(__dirname, 'dist'),

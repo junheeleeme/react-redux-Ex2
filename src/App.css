@@ -31,15 +31,31 @@ html, body{
     height: 65px;
 }
 
-.title{
+.title-wrap{
     display: inline-block;
     position: absolute;
     top: 50%; left: 20px;
     transform: translate(0, -50%);
     padding: 5px;
-    font-size: 20px;
-    vertical-align: middle;
     color: #fff;
+}
+
+.title-wrap>svg{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title-txt{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 747px) {
+    .title{
+        left: 10px;
+        font-size: 18px;
+    }
 }
 
 /* ---------- Container ---------- */
