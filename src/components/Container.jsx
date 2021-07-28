@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-
+import React, { useState, useRef } from 'react';
+import Counter from './Counter';
 
 const Container = () => {
+
     return(
         <>
             <div className="container">
                 <div className="container-wrap">
-                    Container
+
+                    <Counter/>
+
                 </div>
             </div>
         </>

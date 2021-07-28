@@ -9,6 +9,10 @@ html, body{
     background-color: #fff;
 }
 
+ul{
+
+    padding-left: 0;
+}
 
 /* ---------- Common wrap ---------- */
 
@@ -70,6 +74,39 @@ html, body{
 }
 
 
+/* ---------- Write ---------- */
+
+#form{
+    width: 300px;
+    margin: 30px 0;
+}
+
+#title, #body, #submit{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+#title{
+    padding: 3px 5px;
+    height: 30px;
+}
+
+#body{
+    height: 100px;
+    padding: 5px;
+}
+
+#submit{
+    height: 35px;
+}
+
+.List{
+    display: block;
+    height: 200px;
+    padding: 20px;
+}
+
+
 /* ---------- Footer ---------- */
 
 .footer{
@@ -88,4 +125,16 @@ html, body{
     transform: translate(-50%, -50%);
     font-size: 15px;
     color: #f0f0f0;
+}
+
+
+.counter{
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.display{
+    border: 1px solid #000;
+    padding: 20px;
 }
