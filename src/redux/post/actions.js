@@ -15,9 +15,9 @@ export const removePost = (post) => {
 }
 
 
-export const setPost = (post) => {
+export const setPost = (idx) => {
     return {
-        type : REMOVE_POST,
-        data : post
+        type : SET_POST,
+        data : idx
     }
 }

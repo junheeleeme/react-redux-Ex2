@@ -29,6 +29,5 @@ const mapStateToProps = ({post}) => ({
     currentPost : post.currentPost
 })
 
-const mapDispatchToProps = ({setPost});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Article);
+export default connect(mapStateToProps)(Article);

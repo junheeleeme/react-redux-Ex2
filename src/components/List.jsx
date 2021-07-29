@@ -1,11 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { setPost } from '../redux/index';
 
+const List = ({post, setPost}) => {
 
-const List = ({post}) => {
+    const onClickPost = (e) => {
 
-    const onClickPost = () => {
-        
+        const idx = post.findIndex(p => p.title === e.target.innerText);
+        console.log(idx);
+        setPost(idx);
     }
 
     return(
@@ -28,6 +31,6 @@ const mapStateToProps = ({post}) => ({
     post : post.post
 });
 
+const mapDispatchToProps = ({ setPost });
 
-
-export default connect(mapStateToProps)(List);
+export default connect(mapStateToProps, mapDispatchToProps)(List);

@@ -6,14 +6,20 @@ const initialState = {
     isLoad : false,
     post : [
         {
-            title : '첫 번째 게시글',
-            body : '내용',
-            writer : '홍길동'
-        }
+            title : 'HTML',
+            body : 'HTML is...',
+        },
+        {
+            title : 'CSS',
+            body : 'CSS is...',
+        },
+        {
+            title : 'JavaScript',
+            body  : 'JavaScript is ...'
+        },
     ],
     currentPost : {
-        title : 'hello',
-        body  : '123'
+        
     }
 }
 
@@ -40,7 +46,7 @@ const postReducer = (state = initialState, action) =>{
 
             return {
                 ...state,
-                currentPost : action.data
+                currentPost : state.post[action.data]
             }
 
         default : return state
