@@ -569,6 +569,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/Article.jsx":
+/*!************************************!*\
+  !*** ./src/components/Article.jsx ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\n\nvar Article = function Article() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"article\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null)));\n}; // const mapStateToProps = ({post}) => ({\n//     post : post\n// })\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Article);\n\n//# sourceURL=webpack://react-material-ui/./src/components/Article.jsx?");
+
+/***/ }),
+
 /***/ "./src/components/Container.jsx":
 /*!**************************************!*\
   !*** ./src/components/Container.jsx ***!
@@ -576,18 +587,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Counter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Counter */ \"./src/components/Counter.jsx\");\n\n\n\nvar Container = function Container() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container-wrap\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Counter__WEBPACK_IMPORTED_MODULE_1__.default, null))));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Container);\n\n//# sourceURL=webpack://react-material-ui/./src/components/Container.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/Counter.jsx":
-/*!************************************!*\
-  !*** ./src/components/Counter.jsx ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var _redux_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/index */ \"./src/redux/index.js\");\n\n\n\n\nvar Counter = function Counter(_ref) {\n  var count = _ref.count,\n      addCount = _ref.addCount,\n      minusCount = _ref.minusCount;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"counter\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", null, \"Counter\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", null, \"\\uCE74\\uC6B4\\uD130 : \", count), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    onClick: function onClick() {\n      return addCount(12);\n    }\n  }, \"+\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    onClick: function onClick() {\n      return minusCount();\n    }\n  }, \"-\")));\n};\n\nvar mapStateToProps = function mapStateToProps(_ref2) {\n  var counts = _ref2.counts;\n  return {\n    count: counts.count\n  };\n};\n\nvar mapDispatchToProps = {\n  addCount: _redux_index__WEBPACK_IMPORTED_MODULE_2__.addCount,\n  minusCount: _redux_index__WEBPACK_IMPORTED_MODULE_2__.minusCount\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Counter));\n\n//# sourceURL=webpack://react-material-ui/./src/components/Counter.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Article__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Article */ \"./src/components/Article.jsx\");\n/* harmony import */ var _Write__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Write */ \"./src/components/Write.jsx\");\n/* harmony import */ var _List__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./List */ \"./src/components/List.jsx\");\n\n\n\n\n\nvar Container = function Container() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"container-wrap\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_List__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Article__WEBPACK_IMPORTED_MODULE_1__.default, null))));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Container);\n\n//# sourceURL=webpack://react-material-ui/./src/components/Container.jsx?");
 
 /***/ }),
 
@@ -613,6 +613,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/components/List.jsx":
+/*!*********************************!*\
+  !*** ./src/components/List.jsx ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n\n\n\nvar List = function List(_ref) {\n  var post = _ref.post;\n  console.log(post);\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"ul\", null, post.map(function (p, idx) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"li\", {\n      key: p.title + idx\n    }, p.title);\n  })));\n};\n\nvar mapStateToProps = function mapStateToProps(_ref2) {\n  var post = _ref2.post;\n  return {\n    post: post.post\n  };\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps)(List));\n\n//# sourceURL=webpack://react-material-ui/./src/components/List.jsx?");
+
+/***/ }),
+
+/***/ "./src/components/Write.jsx":
+/*!**********************************!*\
+  !*** ./src/components/Write.jsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var _redux_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../redux/index */ \"./src/redux/index.js\");\n\n\n\n\nvar write = function write(_ref) {\n  var post = _ref.post,\n      addPost = _ref.addPost;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"write-wrap\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"input\", {\n    type: \"text\",\n    className: \"titleInput\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"textarea\", {\n    className: \"bodyInput\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    type: \"button\",\n    className: \"submitInput\"\n  }, \"\\uC81C\\uCD9C\\uD558\\uAE30\")));\n};\n\nvar mapStateToProps = function mapStateToProps(_ref2) {\n  var post = _ref2.post;\n  return {\n    post: post.post\n  };\n};\n\nvar mapDispatchToProps = {\n  addPost: _redux_index__WEBPACK_IMPORTED_MODULE_2__.addPost,\n  removePost: _redux_index__WEBPACK_IMPORTED_MODULE_2__.removePost\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(write));\n\n//# sourceURL=webpack://react-material-ui/./src/components/Write.jsx?");
+
+/***/ }),
+
 /***/ "./src/index.jsx":
 /*!***********************!*\
   !*** ./src/index.jsx ***!
@@ -624,39 +646,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 /***/ }),
 
-/***/ "./src/redux/counter/actions.js":
-/*!**************************************!*\
-  !*** ./src/redux/counter/actions.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addCount\": () => (/* binding */ addCount),\n/* harmony export */   \"minusCount\": () => (/* binding */ minusCount)\n/* harmony export */ });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./src/redux/counter/types.js\");\n\nvar addCount = function addCount(s) {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__.ADD_COUNT,\n    data: s\n  };\n};\nvar minusCount = function minusCount() {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__.MINUS_COUNT\n  };\n};\n\n//# sourceURL=webpack://react-material-ui/./src/redux/counter/actions.js?");
-
-/***/ }),
-
-/***/ "./src/redux/counter/reducer.js":
-/*!**************************************!*\
-  !*** ./src/redux/counter/reducer.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./src/redux/counter/types.js\");\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\nvar initialState = {\n  count: 300\n};\n\nvar counterReducer = function counterReducer() {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n\n  switch (action.type) {\n    case _types__WEBPACK_IMPORTED_MODULE_0__.ADD_COUNT:\n      console.log(action.data);\n      return _objectSpread(_objectSpread({}, state), {}, {\n        count: state.count + 1\n      });\n\n    case _types__WEBPACK_IMPORTED_MODULE_0__.MINUS_COUNT:\n      return _objectSpread(_objectSpread({}, state), {}, {\n        count: state.count - 1\n      });\n\n    default:\n      return state;\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (counterReducer);\n\n//# sourceURL=webpack://react-material-ui/./src/redux/counter/reducer.js?");
-
-/***/ }),
-
-/***/ "./src/redux/counter/types.js":
-/*!************************************!*\
-  !*** ./src/redux/counter/types.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ADD_COUNT\": () => (/* binding */ ADD_COUNT),\n/* harmony export */   \"MINUS_COUNT\": () => (/* binding */ MINUS_COUNT)\n/* harmony export */ });\nvar ADD_COUNT = 'ADD_COUNT';\nvar MINUS_COUNT = 'MINUS_COUNT';\n\n//# sourceURL=webpack://react-material-ui/./src/redux/counter/types.js?");
-
-/***/ }),
-
 /***/ "./src/redux/index.js":
 /*!****************************!*\
   !*** ./src/redux/index.js ***!
@@ -664,7 +653,40 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addCount\": () => (/* reexport safe */ _counter_actions__WEBPACK_IMPORTED_MODULE_0__.addCount),\n/* harmony export */   \"minusCount\": () => (/* reexport safe */ _counter_actions__WEBPACK_IMPORTED_MODULE_0__.minusCount)\n/* harmony export */ });\n/* harmony import */ var _counter_actions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./counter/actions */ \"./src/redux/counter/actions.js\");\n\n\n//# sourceURL=webpack://react-material-ui/./src/redux/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addPost\": () => (/* reexport safe */ _post_actions__WEBPACK_IMPORTED_MODULE_0__.addPost),\n/* harmony export */   \"removePost\": () => (/* reexport safe */ _post_actions__WEBPACK_IMPORTED_MODULE_0__.removePost)\n/* harmony export */ });\n/* harmony import */ var _post_actions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./post/actions */ \"./src/redux/post/actions.js\");\n\n\n//# sourceURL=webpack://react-material-ui/./src/redux/index.js?");
+
+/***/ }),
+
+/***/ "./src/redux/post/actions.js":
+/*!***********************************!*\
+  !*** ./src/redux/post/actions.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"addPost\": () => (/* binding */ addPost),\n/* harmony export */   \"removePost\": () => (/* binding */ removePost)\n/* harmony export */ });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./src/redux/post/types.js\");\n\nvar addPost = function addPost(post) {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__.ADD_POST,\n    data: post\n  };\n};\nvar removePost = function removePost(post) {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__.REMOVE_POST,\n    data: post\n  };\n};\n\n//# sourceURL=webpack://react-material-ui/./src/redux/post/actions.js?");
+
+/***/ }),
+
+/***/ "./src/redux/post/reducer.js":
+/*!***********************************!*\
+  !*** ./src/redux/post/reducer.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./src/redux/post/types.js\");\nfunction ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }\n\nfunction _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }\n\nfunction _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }\n\n\nvar initialState = {\n  isLoad: false,\n  post: [{\n    title: '첫 번째 게시글',\n    body: '내용',\n    writer: '홍길동'\n  }]\n};\n\nvar postReducer = function postReducer() {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n\n  switch (action.type) {\n    case _types__WEBPACK_IMPORTED_MODULE_0__.ADD_POST:\n      console.log(action.data);\n      return _objectSpread(_objectSpread({}, state), {}, {\n        post: action.data\n      });\n\n    case _types__WEBPACK_IMPORTED_MODULE_0__.REMOVE_POST:\n      console.log(action.data);\n      return _objectSpread(_objectSpread({}, state), {}, {\n        post: action.post\n      });\n\n    default:\n      return state;\n  }\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (postReducer);\n\n//# sourceURL=webpack://react-material-ui/./src/redux/post/reducer.js?");
+
+/***/ }),
+
+/***/ "./src/redux/post/types.js":
+/*!*********************************!*\
+  !*** ./src/redux/post/types.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ADD_POST\": () => (/* binding */ ADD_POST),\n/* harmony export */   \"REMOVE_POST\": () => (/* binding */ REMOVE_POST)\n/* harmony export */ });\nvar ADD_POST = 'ADD_POST';\nvar REMOVE_POST = 'REMOVE_POST';\n\n//# sourceURL=webpack://react-material-ui/./src/redux/post/types.js?");
 
 /***/ }),
 
@@ -675,7 +697,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\n/* harmony import */ var _counter_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./counter/reducer */ \"./src/redux/counter/reducer.js\");\n\n\nvar rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_1__.combineReducers)({\n  counts: _counter_reducer__WEBPACK_IMPORTED_MODULE_0__.default\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (rootReducer);\n\n//# sourceURL=webpack://react-material-ui/./src/redux/rootReducer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! redux */ \"./node_modules/redux/es/redux.js\");\n/* harmony import */ var _post_reducer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./post/reducer */ \"./src/redux/post/reducer.js\");\n\n\nvar rootReducer = (0,redux__WEBPACK_IMPORTED_MODULE_1__.combineReducers)({\n  post: _post_reducer__WEBPACK_IMPORTED_MODULE_0__.default\n});\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (rootReducer);\n\n//# sourceURL=webpack://react-material-ui/./src/redux/rootReducer.js?");
 
 /***/ }),
 
@@ -697,7 +719,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@charset \\\"utf8\\\";\\n\\n*{\\n    box-sizing: border-box;\\n    margin: 0 auto;\\n}\\n\\nhtml, body{\\n    background-color: #fff;\\n}\\n\\nul{\\n\\n    padding-left: 0;\\n}\\n\\n/* ---------- Common wrap ---------- */\\n\\n\\n.header-wrap, .container-wrap, .footer-wrap{\\n    position: relative;\\n    max-width: 900px;\\n\\n}\\n\\n/* ---------- Header ---------- */\\n\\n.header{\\n    display: block;\\n    background-color: #424242;\\n    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);\\n}\\n\\n.header-wrap{\\n    height: 65px;\\n}\\n\\n.title-wrap{\\n    display: inline-block;\\n    position: absolute;\\n    top: 50%; left: 20px;\\n    transform: translate(0, -50%);\\n    padding: 5px;\\n    color: #fff;\\n}\\n\\n.title-wrap>svg{\\n    display: inline-block;\\n    vertical-align: middle;\\n}\\n\\n.title-txt{\\n    display: inline-block;\\n    vertical-align: middle;\\n    font-size: 20px;\\n}\\n\\n@media screen and (max-width: 747px) {\\n    .title{\\n        left: 10px;\\n        font-size: 18px;\\n    }\\n}\\n\\n/* ---------- Container ---------- */\\n\\n.container{\\n    display: block;\\n}\\n\\n.container-wrap{\\n    min-height: calc(100vh - 125px); /* header + footer height*/\\n    padding: 15px;\\n}\\n\\n\\n/* ---------- Write ---------- */\\n\\n#form{\\n    width: 300px;\\n    margin: 30px 0;\\n}\\n\\n#title, #body, #submit{\\n    display: block;\\n    width: 100%;\\n    margin: 10px 0;\\n}\\n#title{\\n    padding: 3px 5px;\\n    height: 30px;\\n}\\n\\n#body{\\n    height: 100px;\\n    padding: 5px;\\n}\\n\\n#submit{\\n    height: 35px;\\n}\\n\\n.List{\\n    display: block;\\n    height: 200px;\\n    padding: 20px;\\n}\\n\\n\\n/* ---------- Footer ---------- */\\n\\n.footer{\\n    background-color: #9c9c9c;\\n}\\n\\n.footer-wrap{\\n    height: 60px;\\n    text-align: center;\\n    color: #fff;\\n}\\n\\n.footer-txt{\\n    position: absolute;\\n    top: 50%; left: 50%;\\n    transform: translate(-50%, -50%);\\n    font-size: 15px;\\n    color: #f0f0f0;\\n}\\n\\n\\n.counter{\\n    border: 1px solid #000;\\n    padding: 20px;\\n    margin-bottom: 10px;\\n}\\n\\n.display{\\n    border: 1px solid #000;\\n    padding: 20px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://react-material-ui/./src/App.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@charset \\\"utf8\\\";\\n\\n*{\\n    box-sizing: border-box;\\n    margin: 0 auto;\\n}\\n\\nhtml, body{\\n    background-color: #fff;\\n}\\n\\nul{\\n\\n    padding-left: 0;\\n}\\n\\n/* ---------- Common wrap ---------- */\\n\\n\\n.header-wrap, .container-wrap, .footer-wrap{\\n    position: relative;\\n    max-width: 900px;\\n\\n}\\n\\n/* ---------- Header ---------- */\\n\\n.header{\\n    display: block;\\n    background-color: #424242;\\n    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);\\n}\\n\\n.header-wrap{\\n    height: 65px;\\n}\\n\\n.title-wrap{\\n    display: inline-block;\\n    position: absolute;\\n    top: 50%; left: 20px;\\n    transform: translate(0, -50%);\\n    padding: 5px;\\n    color: #fff;\\n}\\n\\n.title-wrap>svg{\\n    display: inline-block;\\n    vertical-align: middle;\\n}\\n\\n.title-txt{\\n    display: inline-block;\\n    vertical-align: middle;\\n    font-size: 20px;\\n}\\n\\n@media screen and (max-width: 747px) {\\n    .title{\\n        left: 10px;\\n        font-size: 18px;\\n    }\\n}\\n\\n/* ---------- Container ---------- */\\n\\n.container{\\n    display: block;\\n}\\n\\n.container-wrap{\\n    min-height: calc(100vh - 125px); /* header + footer height*/\\n    padding: 15px;\\n}\\n\\n\\n/* ---------- Write ---------- */\\n\\n.write-wrap input, .write-wrap textarea, .write-wrap button{\\n    width: 250px;\\n    display: block;\\n    margin: 10px 0;\\n}\\n\\n.titleInput{\\n    height: 33px;\\n    padding: 5px;\\n}\\n\\n.bodyInput{\\n    height: 120px;\\n    padding: 5px;\\n    resize: none;\\n}\\n\\n.submitInput{\\n    height: 35px;\\n}\\n\\n\\n/* ---------- Footer ---------- */\\n\\n.footer{\\n    background-color: #9c9c9c;\\n}\\n\\n.footer-wrap{\\n    height: 60px;\\n    text-align: center;\\n    color: #fff;\\n}\\n\\n.footer-txt{\\n    position: absolute;\\n    top: 50%; left: 50%;\\n    transform: translate(-50%, -50%);\\n    font-size: 15px;\\n    color: #f0f0f0;\\n}\\n\\n\\n.counter{\\n    border: 1px solid #000;\\n    padding: 20px;\\n    margin-bottom: 10px;\\n}\\n\\n.display{\\n    border: 1px solid #000;\\n    padding: 20px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://react-material-ui/./src/App.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -863,7 +885,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, style) {\
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("6b7374b351a92a5a142b")
+/******/ 		__webpack_require__.h = () => ("97f043bc73cbff24ebde")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */

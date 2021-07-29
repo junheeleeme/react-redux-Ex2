@@ -8,12 +8,6 @@
 html, body{
     background-color: #fff;
 }
-
-ul{
-
-    padding-left: 0;
-}
-
 /* ---------- Common wrap ---------- */
 
 
@@ -73,37 +67,65 @@ ul{
     padding: 15px;
 }
 
+/* ---------- List ---------- */
+
+.list{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.list h2{
+    margin-bottom: 20px;
+}
+
+.post-list>li {
+    cursor: pointer;
+}
 
 /* ---------- Write ---------- */
 
-#form{
-    width: 300px;
-    margin: 30px 0;
+.write-wrap{
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px;
 }
 
-#title, #body, #submit{
+.write-wrap h2{
+    margin-bottom: 20px;
+}
+
+.write-wrap input, .write-wrap textarea, .write-wrap button{
+    width: 250px;
     display: block;
-    width: 100%;
     margin: 10px 0;
 }
-#title{
-    padding: 3px 5px;
-    height: 30px;
-}
 
-#body{
-    height: 100px;
+.titleInput{
+    height: 33px;
     padding: 5px;
 }
 
-#submit{
+.bodyInput{
+    height: 120px;
+    padding: 5px;
+    resize: none;
+}
+
+.submitInput{
     height: 35px;
 }
 
-.List{
-    display: block;
-    height: 200px;
+/* ---------- Article ---------- */
+
+.article{
+    border: 1px solid #000;
+    border-radius: 5px;
     padding: 20px;
+}
+
+.article h2{
+    margin-bottom: 20px;
 }
 
 

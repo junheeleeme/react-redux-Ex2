@@ -1,5 +1,8 @@
-import React, { useState, useRef } from 'react';
-import Counter from './Counter';
+import React from 'react';
+import Article from './Article';
+import Write from './Write';
+import List from './List';
+
 
 const Container = () => {
 
@@ -8,7 +11,9 @@ const Container = () => {
             <div className="container">
                 <div className="container-wrap">
 
-                    <Counter/>
+                    <List/>
+                    <Write/>
+                    <Article/>
 
                 </div>
             </div>

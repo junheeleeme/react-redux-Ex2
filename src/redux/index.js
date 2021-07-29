@@ -1,1 +1,1 @@
-export { addCount, minusCount } from "./counter/actions";
+export { addPost, removePost, setPost } from "./post/actions";
