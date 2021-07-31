@@ -1,6 +1,7 @@
 
-import { ADD_POST, REMOVE_POST, SET_POST } from "./types"
+// types.js -> reducer.js -> rootReducer.js
 
+import { ADD_POST, REMOVE_POST, SET_POST } from "./types"
 
 const initialState = {
     isLoad : false,
