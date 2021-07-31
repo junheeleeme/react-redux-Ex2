@@ -1,3 +1,5 @@
+// types.js -> actions.js -> index.js
+
 import { ADD_POST, REMOVE_POST, SET_POST  } from "./types"
 
 export const addPost = (post) => {
